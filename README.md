@@ -23,5 +23,10 @@ sudo pacman -S extra-cmake-modules
 sudo apt install libpulse-dev libfftw3-dev
 ```
 
+### Fedora
+```
+sudo dnf install pulseaudio-libs-devel fftw-devel qt5-devel qt5-qtdeclarative-devel plasma-framework-devel extra-cmake-modules
+```
+
 # KDE Store
 https://store.kde.org/p/1953779
