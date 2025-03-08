@@ -5,14 +5,15 @@
 # Installing
 
 ```
-mkdir build
-cd build
+git clone https://github.com/Marzal/plasma-analyzer.git
+cd plasma-analyzer
+mkdir build && cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release
 make
 sudo make install
 ```
 
-## Compilation dependencies
+## QT5 Compilation dependencies
 ### ArchLinux
 ```
 sudo pacman -S extra-cmake-modules
